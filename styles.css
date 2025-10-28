@@ -63,11 +63,18 @@
     
 }
 
+.Color{
+   
+    transform: translateY(-32px)
+}
+
+
 .rbg{
     background-color: red;
 }
 .obg{
     background-color: orange;
+     transform: translateY(-16px)
 }
 .ybg{
     background-color: yellow;
@@ -82,17 +89,31 @@
 .ibg{
     background-color: rgb(114, 7, 229);
 }
-.pbg{background-color: pink;
-background-size: 100px 100px;}
+.pbg{
+    
+background-color: pink;
+background-size: 100px 100px;
+
+transform: translate(0px, -8px);
+
+}
+
 .vbg{
-    background-color:rgb(156, 19, 156)
+    background-color:rgb(156, 19, 156);
+    transform: translate(0px, -12px);
+
+
+
 }
 .dbg{
     background-color: rgb(83, 4, 83);
-}
+     transform: translate(0px, -18px);
+} 
 .rightshift{
-    justify-self: right;
-     justify-content: right;
+    justify-self: flex;
+    
+    justify-content: right; 
+   /*  transform: translate(730px, -16px); */
     /* vertical-align: middle; */
 }
 .Cell{
