@@ -1,0 +1,115 @@
+.nav {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0 20px;
+    width: 97%;
+    height: 80px;
+    background-color: green;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.nav h1 {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.nav .buttons {
+    display: flex;
+    gap: 10px; 
+}
+
+.nav button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.nav button:hover {
+    background-color: #f1f1f1;
+    transform: translateY(-1px);
+}
+
+.login-container{
+    display: flex;
+    justify-content: center;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.Best{
+    justify-content: center;
+    display: flex;
+}
+.Unknown{
+     justify-content: right;
+     justify-self: right;
+    display: flex;
+}
+.Super{
+    justify-content: center;
+    display: flex;
+    
+}
+
+.rbg{
+    background-color: red;
+}
+.obg{
+    background-color: orange;
+}
+.ybg{
+    background-color: yellow;
+}
+.gbg{
+    background-color: rgb(55, 150, 55);
+    background-size: auto;
+}
+.blbg{
+    background-color: lightskyblue;
+}
+.ibg{
+    background-color: rgb(114, 7, 229);
+}
+.pbg{background-color: pink;
+background-size: 100px 100px;}
+.vbg{
+    background-color:rgb(156, 19, 156)
+}
+.dbg{
+    background-color: rgb(83, 4, 83);
+}
+.rightshift{
+    justify-self: right;
+     justify-content: right;
+    /* vertical-align: middle; */
+}
+.Cell{
+    justify-content: center;
+    justify-self: center;
+    display: flex;
+
+}
+.bbg{
+    background-color: rgb(105, 44, 44);
+    justify-content: center;
+    justify-self: center;
+    display: flex;
+}
+
+.mainbody{
+ justify-items: auto;
+ justify-content: center;
+ justify-self: center;
+}
