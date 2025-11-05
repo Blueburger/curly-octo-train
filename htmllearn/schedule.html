@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<button id="addEventBtn">Add Event</button>
+  <div id="calendar"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var calendarEl = document.getElementById('calendar');
+      var calendar = new FullCalendar.Calendar(calendarEl, {
+        initialView: 'dayGridMonth',
+        selectable: true,
+        events: [
+          { title: 'Initial Event', start: new Date() }
+        ]
+      });
+      calendar.render();
+
+      document.getElementById('addEventBtn').addEventListener('click', function() {
+        var title = prompt('Enter Event Title:');
+        var dateStr = prompt('Enter Event Date (YYYY-MM-DD):');
+        if (title && dateStr) {
+          calendar.addEvent({
+            title: title,
+            start: dateStr
+          });
+          alert('Event added!');
+        }
+      });
+    });
+  </script>
+</body>
+</html>

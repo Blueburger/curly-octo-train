@@ -1,0 +1,152 @@
+.nav {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0 20px;
+    width: 97%;
+    height: 80px;
+    background-color: green;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.nav h1 {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.nav .buttons {
+    display: flex;
+    gap: 10px; 
+}
+
+.nav button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.nav button:hover {
+    background-color: #f1f1f1;
+    transform: translateY(-1px);
+}
+
+.login-container{
+    display: flex;
+    justify-content: center;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.Best{
+    justify-content: center;
+    display: flex;
+}
+
+
+.Super{
+    justify-content: center;
+    display: flex;
+    
+}
+
+.Color{
+   
+    transform: translateY(-32px)
+}
+
+
+.rbg{
+    background-color: red;
+}
+.obg{
+    background-color: orange;
+     transform: translateY(-16px)
+}
+.ybg{
+    background-color: yellow;
+}
+.gbg{
+    background-color: rgb(55, 150, 55);
+    background-size: auto;
+}
+.blbg{
+    background-color: lightskyblue;
+}
+.ibg{
+    align-items: center;
+    background-color: rgb(114, 7, 229);
+    justify-content: center;
+    display: flex;
+    transform: translate(0px, -76px);
+ /* vertical-align: middle; */
+}
+.pbg{
+    
+background-color: pink;
+
+
+transform: translate(0px, -8px);
+
+}
+
+.vbg{
+    background-color:rgb(156, 19, 156);
+    transform: translate(0px, -12px);
+
+
+
+}
+.dbg{
+    background-color: rgb(83, 4, 83);
+     transform: translate(0px, -18px);
+} 
+.rightshift{
+    justify-self: flex;
+    
+    justify-content: right;
+   transform: translate(0px, -76px);
+   background-size: -10px 10px;
+}
+.Cell{
+    justify-content: center;
+    justify-self: center;
+    display: flex;
+
+}
+.bbg{
+    background-color: rgb(105, 44, 44);
+    justify-content: center;
+    justify-self: center;
+    display: flex;
+}
+
+.mainbody{
+ justify-items: auto;
+ justify-content: center;
+ justify-self: center;
+}
+
+.ibg2{
+    background-color: rgb(114, 7, 229);
+
+transform: translate(0px, -54px);
+
+}
+
+.newRightShift{
+    justify-content: right;
+    justify-items: right;
+    justify-self: right;
+
+}
